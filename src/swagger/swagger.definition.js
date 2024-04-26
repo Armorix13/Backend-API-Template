@@ -10,11 +10,7 @@ const swaggerDefinition = {
       {
         url: `http://localhost:3000`,
         description: 'Development Server',
-      },
-      {
-        url: `http://18.223.174.123:3000`,
-        description: 'Live Server',
-      },
+      }
     ],
     // Define security schemes, such as bearer authentication
     components: {
