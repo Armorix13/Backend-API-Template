@@ -21,8 +21,6 @@ app.use(cors());
 app.options('*', cors());
 
 app.use('/image', express.static(path.join(__dirname, 'src/view/img')));
-app.use('/audio', express.static(path.join(__dirname, 'src/view/audio')));
-app.use('/gpxData', express.static(path.join(__dirname, 'src/view/gpxData')));
 
 // Set up API routes
 app.use('/v1', router);
